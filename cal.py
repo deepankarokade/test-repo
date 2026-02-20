@@ -1,3 +1,4 @@
+```
 import op
 print("Welcome to Q&A Calculator")
 
@@ -15,7 +16,7 @@ while True:
         print("Calculator closed.")
         break
 
-    if choice not in ["1", "2", "3", "4"]
+    if choice not in ["1", "2", "3", "4"]:
         print("Invalid choice. Try again.")
         continue
 
@@ -23,7 +24,7 @@ while True:
     num2 = float(input("Enter second number: "))
 
     if choice == "1":
-        print(Result:", num1 + num2
+        print("Result:", num1 + num2)
 
     elif choice == "2":
         print("Result:", num1 - num2)
@@ -36,3 +37,5 @@ while True:
             print("Error: Cannot divide by zero")
         else:
             print("Result:", num1 / num2)
+
+```
