@@ -1,3 +1,4 @@
+```
 print("Welcome to Q&A Calculator")
 
 while True:
@@ -22,7 +23,7 @@ while True:
     num2 = float(input("Enter second number: "))
 
     if choice == "1":
-        print("Result:", num1 + num2
+        print("Result:", num1 + num2)  # Added missing closing parenthesis
 
     elif choice == "2":
         print("Result:", num1 - num2)
@@ -35,3 +36,4 @@ while True:
             print("Error: Cannot divide by zero")
         else:
             print("Result:", num1 / num2)
+```
