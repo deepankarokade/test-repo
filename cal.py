@@ -1,6 +1,6 @@
 ```
-import op
-print("Welcome to Q&A Calculator")
+import o
+print("Welcome to Q&A Calculator
 
 while True:
     print("\nChoose operation:")
@@ -17,7 +17,7 @@ while True:
         break
 
     if choice not in ["1", "2", "3", "4"]:
-        print("Invalid choice. Try again.")
+        print("Invalid choice. Try again."
         continue
 
     num1 = float(input("Enter first number: "))
